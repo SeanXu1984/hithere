@@ -44,9 +44,9 @@ body {
 }
 
 .nav-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
     object-fit: contain;
 }
 
@@ -93,11 +93,11 @@ body {
 }
 
 .hero-icon {
-    width: 120px;
-    height: 120px;
-    border-radius: 26px;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
 
@@ -502,9 +502,9 @@ footer {
     }
 
     .hero-icon {
-        width: 80px;
-        height: 80px;
-        border-radius: 18px;
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
     }
 
     .hero h1 {
