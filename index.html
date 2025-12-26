@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi There - 匿名グループチャット</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Hi There</div>
+            <div class="nav-links">
+                <a href="index.html" data-i18n="nav.home">ホーム</a>
+                <a href="privacy.html" data-i18n="nav.privacy">プライバシーポリシー</a>
+                <a href="support.html" data-i18n="nav.support">サポート</a>
+                <select id="language-selector" class="lang-selector">
+                    <option value="ja">日本語</option>
+                    <option value="en">English</option>
+                    <option value="zh-TW">繁體中文</option>
+                    <option value="de">Deutsch</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 data-i18n="hero.title">Hi There - 近くの人との匿名グループチャット</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">周りの人と完全に匿名でプライベートにチャットできます。インターネット不要、データ収集なし、サーバー不要です。</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 data-i18n="features.title">主な機能</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3 data-i18n="features.noRegistration.title">登録不要</h3>
+                        <p data-i18n="features.noRegistration.desc">すぐにチャットを開始できます。メール、電話番号、アカウント作成は不要です。アプリを開いて始めるだけです。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 data-i18n="features.anonymous.title">完全匿名</h3>
+                        <p data-i18n="features.anonymous.desc">接続を選択するまで身元を明かさずに近くのユーザーとチャットできます。匿名性は常に保護されます。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 data-i18n="features.groupChat.title">匿名グループチャット</h3>
+                        <p data-i18n="features.groupChat.desc">周りの人とのグループ会話に参加しながら、完全に匿名のままです。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 data-i18n="features.zeroData.title">データ収集ゼロ</h3>
+                        <p data-i18n="features.zeroData.desc">プライバシーを最優先にしています。Hi Thereは個人情報を収集、保存、送信しません。すべてがデバイスに保存されます。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 data-i18n="features.offline.title">オフラインで動作</h3>
+                        <p data-i18n="features.offline.desc">インターネット接続不要！Hi Thereはローカル無線技術を使用して、すぐ近くの人とつながります。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 data-i18n="features.realtime.title">リアルタイムメッセージング</h3>
+                        <p data-i18n="features.realtime.desc">近くのユーザーとの即座のコミュニケーション。メッセージはリアルタイムで表示され、ユーザーが範囲外に出ると消えます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="use-cases">
+            <div class="container">
+                <h2 data-i18n="useCases.title">日常の場所に最適</h2>
+                <div class="use-case-list">
+                    <div class="use-case-item">
+                        <strong data-i18n="useCases.office">オフィス</strong>
+                        <span data-i18n="useCases.office.desc">職場のゴシップを共有したり、仕事の話題を話し合ったり、休憩中に同僚とつながったりできます。</span>
+                    </div>
+                    <div class="use-case-item">
+                        <strong data-i18n="useCases.transport">公共交通機関</strong>
+                        <span data-i18n="useCases.transport.desc">通勤がもっと楽しくなります！地下鉄、バス、電車、路面電車で他の乗客とチャットできます。</span>
+                    </div>
+                    <div class="use-case-item">
+                        <strong data-i18n="useCases.campus">大学キャンパス</strong>
+                        <span data-i18n="useCases.campus.desc">教室、カフェテリア、図書館、キャンパスのどこでも学生とつながれます。</span>
+                    </div>
+                    <div class="use-case-item">
+                        <strong data-i18n="useCases.dining">企業のカフェテリア</strong>
+                        <span data-i18n="useCases.dining.desc">ランチ休憩中に同僚と交流を始めましょう。</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="privacy-section">
+            <div class="container">
+                <h2 data-i18n="privacy.title">プライバシー第一</h2>
+                <p data-i18n="privacy.desc">Hi Thereは、プライバシーを核心に構築されています。会話、プロフィール情報、すべてのデータはデバイスに残ります。追跡しません、データを保存しません、情報を誰とも共有しません。シンプルです。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer.text">&copy; 2024 Hi There. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
