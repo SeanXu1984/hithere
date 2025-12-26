@@ -38,6 +38,16 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: #9B59B6;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: contain;
 }
 
 .nav-links {
@@ -80,6 +90,15 @@ body {
     color: white;
     padding: 4rem 0;
     text-align: center;
+}
+
+.hero-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 26px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    object-fit: contain;
 }
 
 .hero h1 {
@@ -480,6 +499,12 @@ footer {
     .nav-links {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .hero-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 18px;
     }
 
     .hero h1 {

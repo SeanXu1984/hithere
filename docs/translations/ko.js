@@ -82,6 +82,6 @@ window.translations_ko = {
     'support.faq.a4': '예, 앱은 완전히 익명으로 작동하며 모든 데이터는 기기에만 저장됩니다. 자세한 내용은 개인정보 보호정책을 참조하세요.',
     'support.response.title': '응답 시간',
     'support.response.desc': '일반적으로 문의사항에 24시간 이내에 답변드립니다. 긴급한 사항은 전화로 문의해 주시기 바랍니다.',
-    'footer.text': '© 2024 Hi There. All rights reserved.'
+    'footer.text': '© 2026 Hi There. All rights reserved.'
 };
 

@@ -82,6 +82,6 @@ window.translations_de = {
     'support.faq.a4': 'Ja, die App arbeitet vollständig anonym, und alle Daten werden nur auf dem Gerät gespeichert. Weitere Details finden Sie in der Datenschutzerklärung.',
     'support.response.title': 'Antwortzeit',
     'support.response.desc': 'Wir antworten normalerweise innerhalb von 24 Stunden auf Anfragen. Für dringende Angelegenheiten empfehlen wir, uns telefonisch zu kontaktieren.',
-    'footer.text': '© 2024 Hi There. All rights reserved.'
+    'footer.text': '© 2026 Hi There. All rights reserved.'
 };
 

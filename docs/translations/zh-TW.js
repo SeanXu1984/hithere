@@ -82,6 +82,6 @@ window.translations_zhTW = {
     'support.faq.a4': '是，本應用程式完全匿名運作，所有資料僅儲存在裝置上。更多詳情，請參閱隱私政策。',
     'support.response.title': '回覆時間',
     'support.response.desc': '我們通常會在 24 小時內回覆查詢。如有緊急事項，建議您透過電話與我們聯絡。',
-    'footer.text': '© 2024 Hi There. All rights reserved.'
+    'footer.text': '© 2026 Hi There. All rights reserved.'
 };
 

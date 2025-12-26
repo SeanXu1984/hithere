@@ -82,6 +82,6 @@ window.translations_ja = {
     'support.faq.a4': 'はい、本アプリは完全に匿名で動作し、すべてのデータはデバイス上にのみ保存されます。詳細については、プライバシーポリシーをご覧ください。',
     'support.response.title': '返信時間',
     'support.response.desc': '通常、お問い合わせには24時間以内に返信いたします。お急ぎの場合は、電話でのお問い合わせをお勧めします。',
-    'footer.text': '© 2024 Hi There. All rights reserved.'
+    'footer.text': '© 2026 Hi There. All rights reserved.'
 };
 

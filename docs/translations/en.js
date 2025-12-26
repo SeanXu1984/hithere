@@ -82,6 +82,6 @@ window.translations_en = {
     'support.faq.a4': 'Yes, the App operates completely anonymously, and all data is stored only on the device. For more details, please see the Privacy Policy.',
     'support.response.title': 'Response Time',
     'support.response.desc': 'We typically respond to inquiries within 24 hours. For urgent matters, we recommend contacting us by phone.',
-    'footer.text': '© 2024 Hi There. All rights reserved.'
+    'footer.text': '© 2026 Hi There. All rights reserved.'
 };
 
